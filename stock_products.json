@@ -1,0 +1,47 @@
+[
+        {
+            "title": "The Lord of the Rings",
+            "author": "J.R.R. Tolkien",
+            "genre": "Fantasy",
+            "pages": 1224,
+            "publication": "1954",
+            "quantity": 200,
+            "price": 20
+        },
+        {
+            "title": "To Kill a Mockingbird",
+            "author": "Harper Lee",
+            "genre": "Fiction",
+            "pages": 336,
+            "publication": "1960",
+            "quantity": 200,
+            "price": 15
+        },
+        {
+            "title": "Harry Potter and the Sorcerer's Stone",
+            "author": "J.K. Rowling",
+            "genre": "Fantasy",
+            "pages": 320,
+            "publication": "1997",
+            "quantity": 200,
+            "price": 18
+        },
+        {
+            "title": "1984",
+            "author": "George Orwell",
+            "genre": "Dystopian",
+            "pages": 328,
+            "publication": "1949",
+            "quantity": 200,
+            "price": 12.5
+        },
+        {
+            "title": "The Great Gatsby",
+            "author": "F. Scott Fitzgerald",
+            "genre": "Classic",
+            "pages": 180,
+            "publication": "1925",
+            "quantity": 200,
+            "price": 10
+        }
+    ]
