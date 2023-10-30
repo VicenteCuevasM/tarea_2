@@ -1,7 +1,7 @@
 # Tarea 2!!
 
 ## Consideraciones generales
-- Antes de correr el programa, se deben setear las variables de entorno de la siguiente manera:
+- Antes de correr el programa, se deben setear las variables de entorno en `.env` de la siguiente manera:
     ```yaml
     MV2_IP: "127.0.0.1"
     MV3_IP: "127.0.0.1"

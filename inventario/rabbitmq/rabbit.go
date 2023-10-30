@@ -4,6 +4,7 @@ import (
 	"bytes"
 	"encoding/json"
 	"inventario/models"
+	"os"
 
 	amqp "github.com/rabbitmq/amqp091-go"
 )
@@ -14,7 +15,9 @@ var Q amqp.Queue
 
 func InitializeQueue(nombre string) error {
 
-	Conn, err := amqp.Dial("amqp://guest:guest@localhost:5672/")
+	rabbit_url := "amqp://guest:guest@" + os.Getenv("MV3_IP") + ":5672/"
+
+	Conn, err := amqp.Dial(rabbit_url)
 	if err != nil {
 		return err
 	}
